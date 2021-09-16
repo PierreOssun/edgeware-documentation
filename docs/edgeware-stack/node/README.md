@@ -8,9 +8,15 @@ A getting started guide can be found at our [Github Wiki](https://github.com/hic
 
 ### To start your node and connect to Wako v3.3.3
 
-For Mainnet, run: `docker run --rm -it decentration/edgeware:v3.3.3 edgeware --chain=edgeware --name <INSERT-NAME> --wasm-execution Compiled`
+For Mainnet, run: 
+```text
+docker run --rm -it decentration/edgeware:v3.3.3 edgeware --chain=edgeware --name <INSERT-NAME> --wasm-execution Compiled
+```
 
-For Beresheet testnet, run: `docker run --rm -it decentration/edgeware:v3.3.3 edgeware --chain=beresheet --name <INSERT_NAME>`
+For Beresheet testnet, run:
+```text
+docker run --rm -it decentration/edgeware:v3.3.3 edgeware --chain=beresheet --name <INSERT_NAME>
+```
 
 For any additional questions or information, refer to our `builders-general` channel in the [Edgeware Discord](https://discord.gg/zdFJm4gA5M).
 
